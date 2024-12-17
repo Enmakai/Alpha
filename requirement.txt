@@ -1,0 +1,36 @@
+# - Command to execute this file { pip install -r requirement.txt }
+# - While running this file in terminal make sure the path of the terminal has this file.
+#
+
+# Core libraries
+numpy>=1.24.0,<1.26.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+
+# Machine Learning libraries
+scikit-learn>=1.1.0
+stable-baselines3>=1.7.0
+ray[rllib]>=2.0.0
+
+# NLP libraries
+transformers>=4.25.0
+nltk>=3.7
+spacy>=3.4.0
+
+# Real-time streaming
+kafka-python>=2.0.2
+
+# Specific version of scipy to avoid conflicts
+scipy==1.10.1
+
+
+
+#-------------------------------------------------
+
+yfinance
+
+
+networkx
+node2vec
+matplotlib
+
